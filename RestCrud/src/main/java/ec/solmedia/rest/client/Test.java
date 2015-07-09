@@ -16,6 +16,7 @@ import org.glassfish.jersey.client.ClientConfig;
 public class Test {
 
     public static void main(String[] args) {
+    //comentario feliz
         ClientConfig config = new ClientConfig();
         Client client = ClientBuilder.newClient(config);
         WebTarget target = client.target(getBaseURI());
